@@ -1,0 +1,32 @@
+.app {
+    padding: 30px 15px;
+  
+    font-family: "Roboto", sans-serif;
+    color: #1b1b1b;
+  }
+  
+  @media (min-width: 360px){
+    .app{
+      padding: 40px 20px;
+    }
+  }
+  
+  @media (min-width: 400px){
+    .app{
+      padding: 50px 25px;
+    }
+  }
+  
+  @media (min-width:600px){
+    .app{
+      padding: 60px 40px;
+    }
+  }
+  
+  @media (min-width: 750px){
+    .app{
+      width: 550px;
+      margin: 60px auto;
+      padding: 0px;
+    }
+  }

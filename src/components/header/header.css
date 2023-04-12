@@ -1,0 +1,20 @@
+.header {
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+  
+  .header__title {
+    margin-bottom: 20px;
+  
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .header__info {
+    color: #a2a2a2;
+    letter-spacing: 0.5px;
+  }
+  
+  .header__info span {
+    margin-right: 15px;
+  }

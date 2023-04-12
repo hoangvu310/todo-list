@@ -1,0 +1,37 @@
+.todo-search {
+    position: relative;
+  
+    margin-bottom: 25px;
+    padding: 0 10px;
+  }
+  
+  .todo-search__input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12.5px 20px;
+    padding-right: 45px;
+  
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  
+    border: 1px solid #a2a2a2;;
+  }
+  
+  .todo-search__input:focus {
+    border-color: transparent;
+    outline: 2px solid #1b1b1b;
+  }
+  
+  .todo-search:before {
+    content: "";
+    position: absolute;
+    top: 13.5px;
+    right: 25px;
+  
+    width: 18px;
+    height: 18px;
+  
+    background-image: url(../../assets/search-icon.svg);
+    background-size: cover;
+  }
